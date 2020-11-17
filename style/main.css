@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Goldman', cursive;
+    text-transform: uppercase;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+img {
+    width: 300px;
+}
+
+.jogador1 {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+
+.jogador2 {
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+
+footer {
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
