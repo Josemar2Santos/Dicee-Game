@@ -5,14 +5,14 @@ let footer = document.querySelector("footer a");
 // player1 randomGen;
 let randomNum1 = Math.floor(Math.random() * 6) + 1; //1-6;
 let imgName1 = "dice" + randomNum1 + ".png"; //img name, ex: dice4;
-let imgAddress1 = "/Dice-Game/images/" + imgName1; //img address;
+let imgAddress1 = "images/" + imgName1; //img address;
 let player1 = document.querySelectorAll("img")[0];
 player1.setAttribute("src", imgAddress1);
 
 // player2 randomGen;
 let randomNum2 = Math.floor(Math.random() * 6) + 1; //1-6;
 let imgName2 = "dice" + randomNum2 + ".png"; //img name, ex: dice4;
-let imgAddress2 = "/Dice-Game/images/" + imgName2; //img address;
+let imgAddress2 = "images/" + imgName2; //img address;
 let player2 = document.querySelectorAll("img")[1];
 player2.setAttribute("src", imgAddress2);
 
