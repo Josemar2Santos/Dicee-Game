@@ -20,11 +20,11 @@ player2.setAttribute("src", imgAddress2);
 if (randomNum1 == randomNum2) {
     title.innerHTML = "Empate! 🙅‍♀️";
 } else if (randomNum1 > randomNum2) {
-    title.innerHTML = "🏆 Jogador 1 Venceu!";
+    title.innerHTML = "🏆 Jogador 01 Venceu!";
     title.style.color = "rgba(0, 0, 255, 0.650)";
     footer.style.color = "rgba(0, 0, 255, 0.650)";
 } else {
-    title.innerHTML = "Jogador 2 Venceu! 🏆";
+    title.innerHTML = "Jogador 02 Venceu! 🏆";
     title.style.color = "rgba(255, 0, 0, 0.650)";
     footer.style.color = "rgba(255, 0, 0, 0.650)";
 }
